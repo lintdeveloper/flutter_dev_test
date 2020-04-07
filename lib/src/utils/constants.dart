@@ -1,3 +1,4 @@
+import 'dart:core';
 import 'package:flutter/material.dart';
 
 class Constants {
@@ -28,4 +29,15 @@ class Constants {
     ),
   );
 
+
+  static const int TIME_OUT_SECONDS = 30;
+  static const String TIME_OUT_MSG = 'The request timed out';
+  static const String SOCKET_EXCEPTION_MSG = 'No Internet connection';
+  static const int TIME_OUT_PROFILE_SECONDS = 90;
+
+  static const String BASE_URL = "https://api.github.com";
+  static const String SEARCH_URL = "https://api.github.com/search";
+
+  // Error Message
+  static const String REPO_RETRIEVAL_ERROR_MSG = "Unable to retrieve repo at the moment";
 }
