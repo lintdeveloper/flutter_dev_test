@@ -1,4 +1,4 @@
-import 'package:flutterdevtest/src/models/repo_model.dart';
+import 'package:flutterdevtest/src/core/repo/repo.model.dart';
 import 'package:flutterdevtest/src/utils/constants.dart';
 import 'package:flutterdevtest/src/utils/utils.dart';
 

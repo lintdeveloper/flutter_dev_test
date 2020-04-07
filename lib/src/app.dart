@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdevtest/src/screens/screens.dart';
+import 'package:flutterdevtest/src/ui/screens/home_screen.dart';
 import 'package:flutterdevtest/src/utils/utils.dart';
 
 class App extends StatelessWidget {
